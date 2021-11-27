@@ -1,23 +1,20 @@
-# Travel Advisor
+# Trip Advisor Application using React and APIs 
 
-![Travel Advisor](https://i.ibb.co/qph2cZn/image.pngg)
+1. In this application, we have an entire google map search where we can search any place in the world, and it will show all the locations
+   which are related to that search term.
 
-## Introduction
-Build and Deploy an advanced Travel Companion Application using Google Maps. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering and much more, this Travel Advisor App is the best Maps Application that you can currently find on YouTube and on the entire internet.
+2. When we search for a particular place, it will show on left side in a card with all restaurants, their reviews, ratings, with all 
+   available dishes which are preparing. Card will also show the specialities of the restaurant, phone numbers, and address.
 
-In this video, you'll learn:
+3. When we click on any of the resaurant card, we will be redirected to the trip advisor page where we can see all reviews.
 
-- Advanced React Best Practices such as folder & file structure, hooks and refs
-- Creating a User Interface using Material UI
-- Working with Google Maps API
-- And most importantly fetching data from unlimited sources using RapidAPI
-- Essentially, you'll become the master of working with APIs
+4. We can also visit their website and filter restaurants by their ratings.
 
-[RapidAPI](https://rapidapi.com/hub?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
-[Travel Advisor API](https://rapidapi.com/apidojo/api/travel-advisor?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
-[Open Weather Map API](https://rapidapi.com/community/api/open-weather-map?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
+5. This application not only consider restaurants but it also includes hotels, and attractions with the same functionality which we have seen in the restaurant portion.
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://javascriptmastery.eo.page/mailing-list.
+6. When we move the map, locations are brows by their own and displayed on the map again. We can zoom in to see more locations/restaurants/hotels.
 
-Setup: run ```npm i && npm start``` to start the development server
+7. We can select a particular card on the map and click on it and it will automatically show that card on the left side.
+
+8. We also have implemented the weather API to see the real weather for visitors on all locations.
+
